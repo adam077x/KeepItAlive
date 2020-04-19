@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Entity.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\AssetManager.cpp" />
+    <ClCompile Include="src\Generator.cpp" />
+    <ClCompile Include="src\BasicEnemy.cpp" />
+    <ClCompile Include="src\GameManager.cpp" />
+    <ClCompile Include="src\Cursor.cpp" />
+    <ClCompile Include="src\EnemyBase.cpp" />
+    <ClCompile Include="src\InGameMenu.cpp" />
+    <ClCompile Include="src\Resource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Entity.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\AssetManager.h" />
+    <ClInclude Include="src\Generator.h" />
+    <ClInclude Include="src\BasicEnemy.h" />
+    <ClInclude Include="src\GameManager.h" />
+    <ClInclude Include="src\Cursor.h" />
+    <ClInclude Include="src\EnemyBase.h" />
+    <ClInclude Include="src\InGameMenu.h" />
+    <ClInclude Include="src\Resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\player.png" />
+    <Image Include="res\textures\generator.png" />
+    <Image Include="res\textures\basicenemy.png" />
+    <Image Include="res\textures\sword.png" />
+    <Image Include="res\textures\rock.png" />
+    <Image Include="res\textures\rockCoal.png" />
+    <Image Include="res\textures\rockIron.png" />
+    <Image Include="res\textures\playerBack.png" />
+    <Image Include="res\textures\playerForward.png" />
+    <Image Include="res\textures\zombieBack.png" />
+    <Image Include="res\textures\zombieForward.png" />
+    <Image Include="res\textures\zombieLeft.png" />
+    <Image Include="res\textures\zombieRight.png" />
+    <Image Include="res\textures\RestartGame.png" />
+    <Image Include="res\textures\pickaxe.png" />
+    <Image Include="res\textures\coal.png" />
+    <Image Include="res\textures\energy.png" />
+    <Image Include="res\textures\hearth.png" />
+    <Image Include="res\textures\generatorHearth.png" />
+    <Image Include="res\textures\zombieBackFlash.png" />
+    <Image Include="res\textures\zombieForwardFlash.png" />
+    <Image Include="res\textures\zombieLeftFlash.png" />
+    <Image Include="res\textures\zombieRightFlash.png" />
+    <Image Include="res\textures\rockFlash.png" />
+    <Image Include="res\textures\generatorFlash.png" />
+    <Image Include="res\textures\tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\fonts\arial.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Music\Powerup9.wav" />
+    <Media Include="res\audio\Respawn.wav" />
+    <Media Include="res\audio\hitSound.wav" />
+    <Media Include="res\audio\hitEnemySound.wav" />
+    <Media Include="res\audio\hitPlayer.wav" />
+  </ItemGroup>
+</Project>

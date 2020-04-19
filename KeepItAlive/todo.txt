@@ -1,0 +1,22 @@
+TODO:
+//Camera
+Range for combat
+
+Working:
+Weapon types (sword, pickaxe, gun)
+Background
+
+Done:
+Tutorial start menu
+Rework the rock texture
+Flash on damage + Sound
+Improve In Game Menu
+Generator UI for adding coal/iron...
+Death
+Respawn + Sound
+Player sprite
+Enemy sprite
+Improve damage system
+Spawning resources
+Mining + Sound
+Fix generator refill text
